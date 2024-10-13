@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+#hero {
+    background-image: url('https://c.pxhere.com/photos/58/29/field_person_plantation_harvest_nature-6276.jpg!d');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-height: 50vh !important; */
+}
+
+#hero img {
+    height: 120px;
+    width: auto;
+}
+
+#hero h1 {
+    letter-spacing: 2px;
+    font-size: 3.7em;
+}
+
+/* #sumario {
+    position: relative;
+    height: 300px;
+} */
+
+/* #sumario::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('../img/summary.jpg') repeat center center;
+    opacity: 0.7;
+} */
+
+.img-container {
+    height: 27rem;
+}
+
+.img-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.marketing-img {
+    width: 500px;
+}
+.marketing-img img {
+    height: auto;
+    width: 100%;
+}
