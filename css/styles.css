@@ -19,7 +19,7 @@ body {
 }
 
 #hero {
-    background-image: url("https://c.pxhere.com/photos/58/29/field_person_plantation_harvest_nature-6276.jpg!d");
+    background-image: url("../img/compressed jpeg/nature-person-field-sunlight.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,5 +38,11 @@ body {
 @media screen and (max-width: 990px) {
     .max-w {
         max-width: 95%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #hero {
+        background-image: url("../img/compressed jpeg/nature-person-field-sunlight-small.jpg");
     }
 }
