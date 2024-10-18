@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family: "Roboto", sans-serif !important;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 .max-w {
@@ -19,7 +19,7 @@ body {
 }
 
 #hero {
-    background-image: url("../img/compressed jpeg/nature-person-field-sunlight.jpg");
+    background-image: url('../img/nature-person-field-sunlight.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,6 +43,6 @@ body {
 
 @media screen and (max-width: 500px) {
     #hero {
-        background-image: url("../img/compressed jpeg/nature-person-field-sunlight-small.jpg");
+        background-image: url('../img/nature-person-field-sunlight-small.webp');
     }
 }
